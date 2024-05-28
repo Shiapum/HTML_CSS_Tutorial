@@ -6,19 +6,12 @@
     position: relative;
 }
 
-.top_right_i {
-    position: absolute;
-    top: 8px;
-    right: 120px;
-    font-size: 14px;
-
-}
-
-.top_right_a {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-    font-size: 14px;
+.navi{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 10px;
+    margin-left: auto;
 
 }
 
